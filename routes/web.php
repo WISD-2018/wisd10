@@ -44,3 +44,11 @@ Route::get('/dd/d1',function(){
 Route::get('/dd/d2',function(){
     return view('dd.d2');
 });
+
+Route::get('/cc/c1',function(){
+    return view('cc.c1');
+});
+
+Route::get('/cc/c2',function(){
+    return view('cc.c2');
+});
